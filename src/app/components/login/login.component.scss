@@ -1,0 +1,26 @@
+.container {
+    background-color: #1B0088;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.container h1 {
+    color: white;
+    font-size: 61px;
+    margin-bottom: 40px;
+}
+
+.container a {
+    background-color: white;
+    border-radius: 9px;
+    color: #150567;
+    font-family: Arial;
+    font-size: 17px;
+    margin-top: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
