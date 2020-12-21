@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { LoginComponent } from './components/login/login.component';
-import { HomeComponent } from './components/home/home.component';
-import { CategoriesComponent } from './components/categories/categories.component';
-import { ReportsComponent } from './components/reports/reports.component';
+import { CategoriesComponent } from './pages/categories/categories.component';
+import { HomeComponent } from './pages/home/home.component';
+import { LoginComponent } from './pages/login/login.component';
+import { ReportsComponent } from './pages/reports/reports.component';
 
 const routes: Routes = [
   { path: 'login', component: LoginComponent },

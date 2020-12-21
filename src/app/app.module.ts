@@ -3,11 +3,11 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { LoginComponent } from './components/login/login.component';
-import { HomeComponent } from './components/home/home.component';
-import { ReportsComponent } from './components/reports/reports.component';
-import { CategoriesComponent } from './components/categories/categories.component';
-import { NavbarComponent } from './components/shared/navbar/navbar.component';
+import { LoginComponent } from './pages/login/login.component';
+import { HomeComponent } from './pages/home/home.component';
+import { ReportsComponent } from './pages/reports/reports.component';
+import { CategoriesComponent } from './pages/categories/categories.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
