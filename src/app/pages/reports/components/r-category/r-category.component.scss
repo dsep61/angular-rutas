@@ -1,0 +1,24 @@
+ul,
+li a {
+    margin-top: 40px;
+    padding: 10px;
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+ul {
+    height: 90%;
+    margin-top: 20px;
+    columns: 2;
+    border: 2px solid#BFBFBF;
+}
+
+ul>li {
+    padding: 10px 0 10px 0;
+}
+
+h3 {
+    color: #1B0088;
+}

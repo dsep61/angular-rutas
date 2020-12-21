@@ -1,0 +1,81 @@
+form>label,
+.parametros>label {
+    display: none;
+}
+
+form>#dt {
+    appearance: none;
+    background: transparent url("../../../../../assets/img/4/calendario.svg") no-repeat 92% center;
+    border-radius: 3px;
+    border: 1px black;
+    color: black;
+    font-size: 12px;
+    padding: 10px 30px 10px 10px;
+    border: 2px solid #BFBFBF;
+    margin-bottom: 20px;
+}
+
+form>#ia {
+    appearance: none;
+    background: transparent url("../../../../../assets/img/4/btn-upload.svg") no-repeat 92% center;
+    border-radius: 3px;
+    border: 1px black;
+    color: black;
+    font-size: 12px;
+    padding: 10px 30px 10px 10px;
+    border: 2px solid #BFBFBF;
+    margin-bottom: 20px;
+}
+
+.parametros>#p1 {
+    appearance: none;
+    border-radius: 3px;
+    border: 1px black;
+    color: black;
+    font-size: 12px;
+    padding: 10px 30px 10px 10px;
+    border: 2px solid #BFBFBF;
+    margin: 0 100px 20px 0;
+}
+
+.parametros>#p2 {
+    appearance: none;
+    border-radius: 3px;
+    border: 1px black;
+    color: black;
+    font-size: 12px;
+    padding: 10px 30px 10px 10px;
+    border: 2px solid #BFBFBF;
+    margin-bottom: 20px;
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 220px;
+}
+
+.botones>#pr {
+    background-color: #E9124C;
+    border-radius: 3px;
+    border: 1px black;
+    display: inline-block;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 6px 28px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.botones>#er {
+    background-color: transparent;
+    border-radius: 3px;
+    border: 1px black;
+    display: inline-block;
+    color: #0AAFA9;
+    font-size: 16px;
+    padding: 6px 28px;
+    text-decoration: none;
+    border: 1px solid #0AAFA9;
+}

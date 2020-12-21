@@ -1,0 +1,12 @@
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    background-color: #0C013B;
+    color: white;
+}
+
+.cabecera p {
+    margin: 20px 20px 20px 0;
+    background: transparent url("../../../assets/img/2/Icon\ material-settings.svg") no-repeat left top;
+    padding-left: 20px;
+}
